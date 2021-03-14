@@ -6,21 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Студия</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="./" lang="en">WebStudio</a>
-            <ul>
-                <li> <a href="./index.html">Студия</a></li>
-                <li> <a href="/portfolio.html">Портфолио</a></li>
-                <li> <a href="">Контакты</a></li>
+            <a class="webstudio" href="./" lang="en">
+                <span class="web">Web</span>Studio
+            </a>
+            <ul class="list site-nav">
+                <li> <a class="link nav-link" href="./index.html">Студия</a></li>
+                <li> <a class="link nav-link current" href="./portfolio.html">Портфолио</a></li>
+                <li> <a class="link nav-link" href="">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="list">
+            <li><a class="link nav-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="link nav-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
 
@@ -105,16 +114,19 @@
 
     </main>
 
-    <footer>
-        <a href="./" lang="en">WebStudio</a>
+    <footer class="dark-bg">
+        <a class="webstudio" href="./" lang="en">
+            <span class="web">Web</span><span class="studio">Studio</span>
+        </a>
         <address>
-            <ul>
+            <ul class="list">
                 <li>
-                    <a href="https://goo.gl/maps/1BC2KQwBZv3AQeFU6" target="_blank" rel="noopener noreferrer">
+                    <a class="link address" href="https://goo.gl/maps/1BC2KQwBZv3AQeFU6" target="_blank"
+                        rel="noopener noreferrer">
                         г. Киев, пр-т Леси Украинки, 26</a>
                 </li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+                <li><a class="link contact" href="mailto:info@example.com">info@example.com</a></li>
+                <li><a class="link contact" href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
         </address>
     </footer>
